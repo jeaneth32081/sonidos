@@ -1,0 +1,195 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Animalitos</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="Acciones.js"></script>
+<script src="jquery-mobile/Acciones.js"></script>
+<style>
+#pantalla{
+	float:left;
+	width:100%;
+	height:25%;
+	background:#C6C;
+	text-align:center;
+	font-size:4em;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#teclado{
+	float:inherit;
+    
+	width:100%;
+	height:100%;
+}
+.nota{
+	position:relative;
+	float:left;
+	height:33.33%;
+	width:50%
+	
+}
+.textonota{
+	position:relative;
+	top:80%;
+	margin:30px 30px;
+	font-weight:bold;
+	text-align:center;
+	font-size:2em;
+	font-family:"Century Gothic";
+	color:#F6C;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head> 
+<body>
+<div data-role="page" id="page">
+  <div data-role="header" style="background-image:url(Imagenes/4b84e3c35623fd0af62a8251ad7a333e.jpg)">
+    <h1>Bienvenido </h1>	
+	</div>    
+  <div data-role="content" style="background-image:url(Imagenes/Fin_Elephants.png)">
+	<div data-role="content"> </div>   
+   <div align="center"><strong>Animales con Sonido Muu</strong></div>
+   
+    <div align="center" data-role="controlgroup" data-type="vertical" >
+    <div style="width:50%">
+      <p><a href="#page2" data-role="button" id="Animales Domesticos">
+        ANIMALES SALVAJES
+        </a>
+        <a href="#page3" data-role="button" id="Animales Salvajes">
+          ANIMALES DOMESTICOS
+        </a></p>
+      <p><img src="Imagenes/ilustracic3b3n-de-animales-del-zoolc3b3gico-zoo-animals-ilustration.jpg" width="391" height="303"></p>
+    </div>
+    </div>
+    
+  </div>		
+	<div data-role="footer" style="background-image:url(Imagenes/4b84e3c35623fd0af62a8251ad7a333e.jpg)">
+		<h4>Ariana Rosa</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page2"  data-add-back-btn="true">
+	<div data-role="header" data-theme="b" style="background-image:url(Imagenes/Imagenes%20Animalitos%20Nene.jpg)">
+		<h1>Animales Salvajes</h1>
+	</div>
+	<div data-role="content" style="background-image:url(Imagenes/depositphotos_10769535-Background-animal-footprints.jpg)">	
+	<div id="teclado">
+    
+    <div id="rinoceronte" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/22605703-rhino-cartoon-with-forest-background-Stock-Vector-rhino.jpg" width="220" height="220">
+      </div>
+    </div>
+    </div>
+    
+    <div id="gorila" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/original.jpg"" width="220" height="220">
+    </div>
+    </div> 
+    </div>
+    
+    <div id="tigre" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/images (5).jpg" width="220" height="220"
+   >
+    </div>
+    </div>
+    </div>
+    
+    <div id="elefante" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/descarga.jpg"  width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    <div id="hpopotamo" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/5bd27e14f8059e6bd579f4cd455d9bd1.png"  width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    <div id="cocodrilo" class="nota">
+    <div class="textonota">
+      <div align="center"><img src="Imagenes/4264045-Baby-Animal-collection-Crocodile-Stock-Vector-cartoon-crocodile-alligator.jpg"  width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    
+    </div>
+	<div data-role="footer" style="background-image:url(Imagenes/Imagenes%20Animalitos%20Nene.jpg)"> 
+	  <h4>Pie de página</h4>
+	</div>
+</div>
+</div>
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header" style="background-image:url(Imagenes/4b84e3c35623fd0af62a8251ad7a333e.jpg)">
+		<h1>Animales Domesticos</h1>
+	</div>
+	<div data-role="content" style="background-image:url(Imagenes/depositphotos_10769535-Background-animal-footprints.jpg)">	
+	  <div id="teclado">
+    
+    <div id="conejo" class="nota">
+    <div class="textonota">
+    <div align="center"><img src="Imagenes/conejos.jpg" width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    <div id="perro" class="nota">
+    <div class="textonota">
+    <div align="center"><img src="Imagenes/3662615_640px.jpg" width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    <div id="loro" class="nota">
+    <div class="textonota">
+    <div align="center"><img src="Imagenes/foro.jpg" width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    <div id="guajolote" class="nota">
+    <div class="textonota">
+    <div align="center"><img src="Imagenes/guajolote.jpg"  width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    
+    <div id="gato" class="nota">
+    <div class="textonota">
+    <div aling="center"><img src="Imagenes/gatos-3.n.kn._kn.kn.jpg" width="220" height="220">
+    </div>
+    </div>
+    </div>
+    
+    
+    <div id="pato" class="nota">
+    <div class="textonota">
+     <div align="center"><img src="Imagenes/tumblr_mp4z7b6Yxa1qcnn8do1_500.jpg"  width="220" height="220">
+     </div> 
+     </div>
+    
+    
+
+	</div>
+	<div data-role="footer" style="background-image:url(Imagenes/4b84e3c35623fd0af62a8251ad7a333e.jpg)">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+</div>
+
+</body>
+</html>
